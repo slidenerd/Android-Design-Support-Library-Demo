@@ -1,5 +1,8 @@
 package slidenerd.vivz.navigationviewdemo;
-
+/**
+ * Author Vivz
+ * Date 15/06/15
+ */
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
@@ -17,7 +20,6 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-    //All the stuff needed to play with a navigation view
     private static final String SELECTED_ITEM_ID = "selected_item_id";
     private static final String FIRST_TIME = "first_time";
     private Toolbar mToolbar;
