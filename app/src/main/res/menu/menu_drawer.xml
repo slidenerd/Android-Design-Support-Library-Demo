@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--All the items added without any grouping-->
+
+    <item
+        android:id="@+id/navigation_item_1"
+        android:icon="@drawable/ic_number_0"
+        android:title="@string/navigation_item_1" />
+    <item
+        android:id="@+id/navigation_item_2"
+        android:icon="@drawable/ic_number_1"
+        android:title="@string/navigation_item_2" />
+    <item
+        android:id="@+id/navigation_item_3"
+        android:icon="@drawable/ic_number_2"
+        android:title="@string/navigation_item_3" />
+    <item
+        android:id="@+id/navigation_item_4"
+        android:icon="@drawable/ic_number_3"
+        android:title="@string/navigation_item_4" />
+    <item
+        android:id="@+id/navigation_item_5"
+        android:icon="@drawable/ic_number_4"
+        android:title="@string/navigation_item_5" />
+
+    <!--The drawer itesm below have been classified into groups-->
+
+    <!--<group-->
+    <!--android:id="@+id/group_1"-->
+    <!--android:checkableBehavior="single">-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_1"-->
+    <!--android:icon="@drawable/ic_number_0"-->
+    <!--android:title="@string/navigation_item_1" />-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_2"-->
+    <!--android:icon="@drawable/ic_number_1"-->
+    <!--android:title="@string/navigation_item_2" />-->
+    <!--</group>-->
+    <!--<group-->
+    <!--android:id="@+id/group_2"-->
+    <!--android:checkableBehavior="single">-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_3"-->
+    <!--android:icon="@drawable/ic_number_2"-->
+    <!--android:title="@string/navigation_item_3" />-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_4"-->
+    <!--android:icon="@drawable/ic_number_3"-->
+    <!--android:title="@string/navigation_item_4" />-->
+    <!--</group>-->
+    <!--<group-->
+    <!--android:id="@+id/group_3"-->
+    <!--android:checkableBehavior="single">-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_5"-->
+    <!--android:icon="@drawable/ic_number_4"-->
+    <!--android:title="@string/navigation_item_5" />-->
+    <!--</group>-->
+
+
+    <!--The drawer items below have been categorized according to headers-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_1"-->
+    <!--android:icon="@drawable/ic_number_0"-->
+    <!--android:title="@string/navigation_item_1">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_2"-->
+    <!--android:icon="@drawable/ic_number_1"-->
+    <!--android:title="@string/navigation_item_2" />-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_3"-->
+    <!--android:icon="@drawable/ic_number_2"-->
+    <!--android:title="@string/navigation_item_3" />-->
+    <!--</menu>-->
+    <!--</item>-->
+
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_4"-->
+    <!--android:icon="@drawable/ic_number_3"-->
+    <!--android:title="@string/navigation_item_4">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_5"-->
+    <!--android:icon="@drawable/ic_number_4"-->
+    <!--android:title="@string/navigation_item_5" />-->
+    <!--</menu>-->
+    <!--</item>-->
+
+</menu>
