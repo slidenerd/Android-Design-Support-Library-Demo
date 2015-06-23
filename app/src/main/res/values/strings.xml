@@ -15,4 +15,5 @@
     <string name="text_second_activity">Hi Its Second Activity Here</string>
     <string name="title_activity_third">Third</string>
     <string name="text_third_activity">Hi Its Third Activity</string>
+    <string name="text_dismiss">Dismiss</string>
 </resources>

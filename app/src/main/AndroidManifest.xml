@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="slidenerd.vivz.navigationviewdemo" >
 
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,12 +20,11 @@
         </activity>
         <activity
             android:name=".SecondActivity"
-            android:label="@string/title_activity_second" >
-        </activity>
+            android:label="@string/title_activity_second" />
         <activity
             android:name=".ThirdActivity"
-            android:label="@string/title_activity_third" >
-        </activity>
+            android:label="@string/title_activity_third" />
+
     </application>
 
 </manifest>
