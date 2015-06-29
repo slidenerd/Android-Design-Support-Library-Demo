@@ -3,6 +3,7 @@ package slidenerd.vivz.navigationviewdemo;
  * Author Vivz
  * Date 15/06/15
  */
+
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
@@ -85,6 +86,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (mSelectedId == R.id.navigation_item_3) {
             mDrawerLayout.closeDrawer(GravityCompat.START);
             intent = new Intent(this, ThirdActivity.class);
+            startActivity(intent);
+        }
+        if (mSelectedId == R.id.navigation_item_4) {
+            mDrawerLayout.closeDrawer(GravityCompat.START);
+            intent = new Intent(this, FourthActivity.class);
             startActivity(intent);
         }
     }
