@@ -31,6 +31,7 @@ import java.util.ArrayList;
 
 public class FourthActivity extends AppCompatActivity {
 
+    //the main layout that contains all content
     private CoordinatorLayout mCoordinator;
     private AppBarLayout mAppBarLayout;
     private CollapsingToolbarLayout mCollapsingToolbarLayout;
